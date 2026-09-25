@@ -17,13 +17,11 @@ A reliable, grounded question-answering assistant that allows users to upload PD
 
 ## Setup & Installation
 
-1. Create and Activate Virtual Environment
-    '''powershell
+1. Create and Activate Virtual Environment:
     python -m venv venv
     venv\Scripts\activate
 
-2. Install Dependencies
-   '''powershell
+2. Install Dependencies:
    pip install -r requirements.txt
 
 3. Configure Environment Variables
@@ -32,6 +30,5 @@ A reliable, grounded question-answering assistant that allows users to upload PD
 
 ## Running the Application
 ### Launch the Streamlit web app:
-   '''powershell
    streamlit run app.py
 
