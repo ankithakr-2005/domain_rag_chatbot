@@ -19,12 +19,13 @@ A reliable, grounded question-answering assistant that allows users to upload PD
 
 1. Create and Activate Virtual Environment:
     python -m venv venv
+   
     venv\Scripts\activate
 
-2. Install Dependencies:
+3. Install Dependencies:
    pip install -r requirements.txt
 
-3. Configure Environment Variables
+4. Configure Environment Variables
    Create a .env file in the root directory and add your Gemini API key:
    GEMINI_API_KEY=your_gemini_api_key_here
 
